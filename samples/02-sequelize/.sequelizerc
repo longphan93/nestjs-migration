@@ -1,0 +1,7 @@
+const { resolve } = require('path');
+require('ts-node/register');
+
+module.exports = {
+  config: resolve('config.json'),
+  'migrations-path': resolve('migrations'),
+};

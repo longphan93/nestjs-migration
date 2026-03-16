@@ -1,0 +1,11 @@
+image: node:latest
+
+stages:
+  - publish
+
+publish:
+  stage: publish
+  script:
+    - sh scripts/publish.sh
+  only:
+    - main

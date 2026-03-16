@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "mysql",
+    "password": "mysql",
+    "database": "enosta",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
