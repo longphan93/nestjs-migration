@@ -21,7 +21,7 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com
 
-      - run: sh script/publish.sh
+      - run: sh scripts/publish.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
